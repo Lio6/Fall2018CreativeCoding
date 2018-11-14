@@ -1,13 +1,22 @@
-//
-//  particless.hpp
-//  HW_Wk7_ofCamera
-//
-//  Created by sumsun on 10/15/18.
-//
+#pragma once
+#include "ofMain.h"
 
-#ifndef particless_hpp
-#define particless_hpp
+class Particles{
+public:
+    
+    void setup(ofPoint _pos);
+    void update();
+    void draw();
+    void addForce(ofPoint force);
 
-#include <stdio.h>
-
-#endif /* particless_hpp */
+    
+    ofPoint homePos;
+    ofPoint startPos;
+    ofPoint vel;
+    ofPoint acc;
+    ofPoint force;
+    
+    
+    
+    
+};

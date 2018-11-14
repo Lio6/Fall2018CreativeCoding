@@ -57,7 +57,7 @@ void ofApp::draw(){
     ofSetColor(200, 56, 255);
     ofDrawCircle(outCubicX, 350, 20);
     
-    float inOutCubicX = (1-inOutCubicMove)*startPos + inOutCubicMove*endPos;
+    float inOutCubicX 
     ofSetColor(233, 34, 200);
     ofDrawCircle(inOutCubicX, 400, 20);
 

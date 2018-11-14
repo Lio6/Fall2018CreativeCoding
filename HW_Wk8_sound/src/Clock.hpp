@@ -1,13 +1,25 @@
-//
-//  Clock.hpp
-//  HW_Wk8_sound
-//
-//  Created by sumsun on 10/25/18.
-//
+#ifndef _OF_CLOCK
+#define _OF_CLOCK
 
-#ifndef Clock_hpp
-#define Clock_hpp
+#include "ofMain.h"
 
-#include <stdio.h>
+class ofClock {
+    
+public:
+    ofClock();
+    
+    void clockupdate( int, int , int );
+    void draw();
+    
+//private:
+//    int radius;
+//
+//    int top;
+//    int left;
+//
+//    float secondsAngle;
+//    float minutesAngle;
+//    float hoursAngle;
+};
 
-#endif /* Clock_hpp */
+#endif
